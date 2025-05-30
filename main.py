@@ -123,6 +123,7 @@ def draw_screen():
     pygame.draw.rect(screen, DIMGREY, (Rect6_start_x, Rect6_start_y, Rect_Width, Rect_Height))  # 载入棋谱
     pygame.draw.rect(screen, DIMGREY, (Rect7_start_x, Rect7_start_y, Rect_Width, Rect_Height))  # 保存棋谱
 
+
     # 写文本
     font = pygame.font.Font("images/simhei.ttf", 25)  # 初始化文本格式
     # 人人对战
